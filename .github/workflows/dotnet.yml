@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Staging
-      url: https://github.com/94Douglas/DeploymentTest/
+      url: https://github.com/94Douglas/DeploymentTest/tree/staging
       
     steps:
     - name: Check out repository code
@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: https://github.com/94Douglas/DeploymentTest/
+      url: https://github.com/94Douglas/DeploymentTest/tree/master
       
     steps:
     - name: Check out repository code
